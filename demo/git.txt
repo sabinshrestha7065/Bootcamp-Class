@@ -11,4 +11,6 @@ git bash commands
 - git log => k k commit gareko xa vanerw thaha hunxa.
 - git checkout "commit id psate" => you go to the old files.
 - git log --oneline => it gives the commit in single line.
--git branch
+- git branch
+- git config --global alias.st "status" => change command into another name.
+

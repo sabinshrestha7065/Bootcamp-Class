@@ -1,0 +1,11 @@
+bash commands
+- cd 
+- ls 
+- pwd
+- cd ..
+- rm
+- rm -r
+- mv 
+- touch
+- cat
+- mkdir
