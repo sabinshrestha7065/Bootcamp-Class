@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>sidebar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: rgb(13, 13, 37);
+            display: flex;
+            gap: 100px;
+        }
+
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 55px;
+            background: white;
+            height: 100vh;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 260px;
+            background: white;
+            height: 100vh;
+
+        }
+
+        .logo i {
+            font-size: 32px;
+            cursor: pointer;
+        }
+
+        section ul {
+            margin-bottom: 80px;
+            margin-right: 38px;
+        }
+
+
+        section ul li {
+            font-size: 23px;
+            margin: 33px;
+            list-style: none;
+            cursor: pointer;
+        }
+
+
+        section ul li:hover {
+            display: flex;
+            width: 57px;
+            height: 50px;
+            border-radius: 13px;
+            align-items: center;
+            justify-content: center;
+            background: rgb(185, 122, 122);
+        }
+
+        .photo img {
+            padding: 7px;
+            border-radius: 50px;
+            cursor: progress;
+        }
+
+        .exit {
+            margin-left: 25px;
+        }
+
+        .exit i {
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="bi bi-apple"></i>
+        </div>
+        <section>
+            <ul>
+                <li><i class="bi bi-house-door"></i></li>
+                <li><i class="bi bi-person"></i></li>
+                <li><i class="bi bi-chat"></i></li>
+                <li><i class="bi bi-file-bar-graph"></i></li>
+                <li><i class="bi bi-cart3"></i></li>
+                <li><i class="bi bi-gear"></i></li>
+            </ul>
+        </section>
+        <div class="bottom-part">
+            <div class="photo">
+                <img src="../manish.jpg" alt="manish" width="40px" height="40px">
+            </div>
+            <div class="exit">
+                <i class="bi bi-box-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="logo">
+            <i class="bi bi-apple"></i>
+           <h3>WEBSITE LOGO</h3>
+        </div>
+        <section>
+            <ul>
+                <li><i class="bi bi-house-door"></i> HOME</li>
+                <li><i class="bi bi-person"></i>PORFILE</li>
+                <li><i class="bi bi-chat"></i>INBOX</li>
+                <li><i class="bi bi-file-bar-graph"></i>ANALYTICS</li>
+                <li><i class="bi bi-cart3"></i>ORDER</li>
+                <li><i class="bi bi-gear"></i>SETTINGS</li>
+            </ul>
+        </section>
+        <div class="bottom-part">
+            <div class="photo">
+                <img src="../manish.jpg" alt="manish" width="40px" height="40px">
+                MANISH SHRESTHA
+            </div>
+            <div class="exit">
+                <i class="bi bi-box-arrow-right"></i>
+                LOGOUT
+            </div>
+        </div>
+    </div>
+    <!-- <aside>
+
+        <div>
+            I am engineer haii
+        </div>
+    </aside> -->
+</body>
+
+</html>

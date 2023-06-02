@@ -9,3 +9,5 @@ bash commands
 - touch
 - cat
 - mkdir
+- history
+- echo
