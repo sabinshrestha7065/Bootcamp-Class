@@ -12,7 +12,9 @@ git bash commands
 - git checkout "commit id psate" => you go to the old files.
 - git log --oneline => it gives the commit in single line.
 - git branch
+- git branch manish => make a another branch.
 - git config --global alias.st "status" => change command into another name.
+- git config --global alias unset alias.st => delet
 - git remote add origin paste url then git remote
 - git branch -m manish newbranch name
 - git push
