@@ -13,3 +13,9 @@ git bash commands
 - git log --oneline => it gives the commit in single line.
 - git branch
 - git config --global alias.st "status" => change command into another name.
+- git remote add origin paste url then git remote
+- git branch -m manish newbranch name
+- git push
+- git remote set-url origin paste url
+- git branch -d namebranch => delet
+- git checkout -b lamb (newbranch)
