@@ -17,5 +17,6 @@ git bash commands
 - git branch -m manish newbranch name
 - git push
 - git remote set-url origin paste url
-- git branch -d namebranch => delet
+- git branch -d 'namebranch '=> delet
+- git branch -D 'namebranch'
 - git checkout -b lamb (newbranch)
