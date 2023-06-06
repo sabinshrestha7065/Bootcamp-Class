@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const stop = setInterval(function () {
+            const timeEl = document.getElementById("time")
+            const current = parseInt(timeEl.textContent);
+            timeEl.textContent = current - 1
+        }, 1e3)
+
+        let age = 34;
+
+
+        setInterval(function () {
+            age - 1
+        }, 1e3)
+
+        setTimeout(function () {
+            clearInterval(stop)
+        })
+
+
+        function greet() {
+            return new promise((resolve, reject) => {
+                setTimeout(() => {
+                    console.log('hi')
+                    resolve()
+                }, 1000)
+            })
+        }
+        async function greet2() {
+            setTimeout(() => {
+                console.log('hi');
+                return
+            }, 1000)
+        }
+
+        //  greet()
+        //greet2()
+
+        // javaScript atring method 
+
+        // charAt()
+
+        var txt = "Hello world";
+        console.log(txt.charAt(0)); // print 'H'
+
+      //  concat()
+
+        var str1 = 'Hello';
+        var str2 = 'codingtuer';
+        console.log(str1.concat(str2));
+
+        //toUpperCase()
+        var sentence = 'manish';
+        console.log(sentence.toUpperCase())
+    </script>
+</body>
+
+</html>

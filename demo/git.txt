@@ -22,3 +22,7 @@ git bash commands
 - git branch -d 'namebranch '=> delet
 - git branch -D 'namebranch'
 - git checkout -b lamb (newbranch)
+- git remote -v => kun origin ma xa vane code.
+- git clone
+- git fetch -a
+- git branch -r
